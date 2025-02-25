@@ -1,0 +1,116 @@
+#homemain{
+    color: #ea0101;
+}
+.h1-title{
+    color: #ffffff;
+    font-size: 45px;
+    width: 500px;
+    text-align: justify;
+}
+#title-1{
+    color: rgb(0, 231, 65);
+    
+}
+#home-content{
+    color: aliceblue;
+}
+#home1{
+    height: 650px;
+    font-size: 20px;
+    width: 1523px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://png.pngtree.com/thumb_back/fw800/background/20230610/pngtree-several-fresh-vegetables-and-fruits-are-laid-out-on-a-wooden-image_2899224.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    text-align: justify;
+}
+#home1 .home1-left{
+    width: 500px;
+    margin: 100px;
+    margin-left: 190px;
+}
+#home1 .home1-right{
+    margin-right: 290px;
+    margin-top: 100px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+#home1 .home1-right img{
+    margin: 0 10px;
+    width: 100px;
+    height: 400px;
+    border-radius: 50px;
+    animation: animation 3s infinite linear;
+}
+
+#home1 .home1-right img:nth-child(1){
+    animation-delay: 0.5s;
+}
+
+#home1 .home1-right img:nth-child(2){
+    animation-delay: 1s;
+}
+
+@keyframes animation {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+#products h2{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin-left: 370px;
+    margin-bottom: 20px;
+}
+
+#home2{
+    width: 1423px;
+    height: 600px;
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+#home2 .home2-left img{
+    width: 600px;
+    height: 610px;   
+    display: flex;
+    margin-right: 100px;
+
+}
+#home2 .home2-right{
+    width: 650px;
+    height: 100px;
+
+}
+#home2 .home2-right #home2-title{
+    margin-top: 40px;
+    font-size: 45px;
+    color: rgb(0, 150, 22);
+
+}
+#home2 .home2-right #home2-content{
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+#home2 button{
+    margin-top: 40px;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    background-color: #009721;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+
+}
+

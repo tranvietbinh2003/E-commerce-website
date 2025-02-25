@@ -1,0 +1,100 @@
+/* site-navbar.css */
+
+#header {
+  background-color: #000000;
+  border-bottom: 0.0001px solid #414141;
+}
+.navbar-brand{
+  color: #ffffff;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.navbar-brand:hover{
+  color: #ffffff;
+}
+
+.navbar-nav {
+  margin: auto;
+  display: flex; 
+  align-items: center;
+  padding-left: 200px;
+  font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+  margin-left: auto; 
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #04ff00;
+
+}
+
+
+.account-display {
+  align-items: center;
+  margin-right: 10px;
+  margin-left: auto; 
+
+
+}
+
+.account-display img {
+  margin-right: 8px; 
+}
+
+.account-display span {
+  font-weight: bold;
+  color: #ffffff; 
+}
+
+/* footer */
+
+.footer {
+  padding: 20px 0;
+  background-color: #000000;
+  display: flex;
+  justify-content: center; /* Căn giữa nội dung footer */
+  position: relative;
+}
+
+.footer h6 {
+  font-size: 20px;
+  color: hsl(130, 100%, 70%);
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.footer .footer-link {
+  color: hsl(130, 100%, 70%);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer .footer-link:hover {
+  color: hsl(130, 100%, 43%);
+}
+
+.footer-text {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.text-center {
+  text-align: start;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+  display: block;
+}
